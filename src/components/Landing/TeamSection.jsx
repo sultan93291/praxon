@@ -37,10 +37,10 @@ const teamMembers = [
 
 function TeamSection() {
   return (
-    <section className="pb-[130px]">
+    <section className=" pb-[40px] 2xl:pb-[130px]">
       <Container>
         {/* title  */}
-        <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
+        <div className="xl:w-[665px] mx-auto text-center 2xl:pb-[30px]">
           <h3 className="title--lg" data-aos="fade-up">
             Who we are Team
           </h3>

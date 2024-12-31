@@ -88,7 +88,7 @@ const caseStudies = [
 
 function RevolutionizingSection() {
   return (
-    <section className="pt-[150px] pb-[130px] relative z-[1]">
+    <section className=" pt-[150px] pb-[40px] 2xl:pb-[130px] relative z-[1]">
       <Container>
         <div>
           {/* title  */}
@@ -123,7 +123,7 @@ function RevolutionizingSection() {
               <RevolutionCard key={item.id} item={item} />
             ))}
           </div>
-          <div className="pt-[128px]">
+          <div className=" pt-[40px] 2xl:pt-[128px]">
             <SpeakWithExpert />
           </div>
         </div>

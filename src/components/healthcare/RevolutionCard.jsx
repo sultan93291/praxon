@@ -54,10 +54,10 @@ function RevolutionCard({ item }) {
             ))}
           </ul>
         </div>
-        <div className="mt-8" data-aos="fade-up" data-aos-delay="250">
+        <div className="mt-4 2xl:mt-8" data-aos="fade-up" data-aos-delay="250">
           <Link
             to={`${item?.actionLink}`}
-            className="inline-block py-[15px] px-[66px] border-[2px] border-white rounded-[70px] duration-200 ease-in-out hover:bg-btnBg hover:text-white hover:border-btnBg"
+            className="inline-block py-[10px] 2xl:py-[15px] px-[30px] 2xl:px-[66px] border-[2px] border-white rounded-[70px] duration-200 ease-in-out hover:bg-btnBg hover:text-white hover:border-btnBg"
           >
             {item?.actionLabel}
           </Link>

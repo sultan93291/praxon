@@ -25,7 +25,7 @@ const tools = [
 
 function ToolsSection() {
   return (
-    <section className="pt-[70px] pb-[120px] overflow-hidden">
+    <section className=" pt-[35px] 2xl:pt-[70px] pb-[60px] 2xl:pb-[120px] overflow-hidden">
       <Container>
         {/* title  */}
         <div className="lg:w-[495px] mx-auto mb-10">
@@ -37,7 +37,7 @@ function ToolsSection() {
           {tools.map((item, index) => (
             <div
               key={item.id}
-              className="custom-wrap mt-[30px]   "
+              className="custom-wrap mt-[10px] 2xl:mt-[30px]   "
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

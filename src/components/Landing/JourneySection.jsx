@@ -5,7 +5,7 @@ import Shape from "../../assets/images/pattern/linear-shape.png";
 function JourneySection() {
   return (
     <section
-      className="pt-[160px] pb-[100px] relative z-[1]"
+      className=" pt-[40px] 2xl:pt-[160px] pb-[40px] 2xl:pb-[100px] relative z-[1]"
       data-aos="fade-in"
     >
       <Container>

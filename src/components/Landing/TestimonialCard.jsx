@@ -2,7 +2,7 @@ import QuoteIcon from "../../assets/images/icon/quote.svg";
 
 function TestimonialCard({ item }) {
   return (
-    <div className="custom-wrap">
+    <div className=" mr-[6px] ml-[6px] 2xl:custom-wrap">
       <div className="lg:py-8 py-4 lg:px-6 px-3 lg:w-[545px] bg-faqBg rounded-[24px] border border-cardBorderColor flex items-start gap-4 relative">
         <div className="min-w-[48px] max-w-[48px] h-[48px] rounded-full overflow-hidden border border-white">
           <img

@@ -43,7 +43,7 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <section className="pb-[100px]">
+    <section className=" pb-[50px] 2xl:pb-[100px]">
       <Container>
         {/* title  */}
         <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
@@ -51,7 +51,7 @@ function FaqSection() {
             Frequently asked questions
           </h3>
           <p
-            className="mt-8 font-medium text-paragraphColor"
+            className="mt-4 font-medium  2xl:mt-8 text-paragraphColor"
             data-aos="fade-up"
             data-aos-delay="100"
           >

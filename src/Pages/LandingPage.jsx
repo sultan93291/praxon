@@ -9,7 +9,7 @@ import JourneySection from "@/components/Landing/JourneySection";
 
 function LandingPage() {
   return (
-    <>
+    <section className="overflow-x-hidden" >
       <HeroSection />
       <ToolsSection />
       <ServiceSection />
@@ -18,7 +18,7 @@ function LandingPage() {
       <FaqSection />
       <TestimonialSection />
       <JourneySection />
-    </>
+    </section>
   )
 }
 

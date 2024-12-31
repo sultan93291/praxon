@@ -4,7 +4,7 @@ import Container from "../container/Container";
 
 function BookCallSection() {
   return (
-    <section className="call-book pb-[120px]">
+    <section className="call-book pb-[40px] 2xl:pb-[120px]">
       <Container>
         {/* title  */}
         <div className=" w-[300px] 2xl:w-[665px] mx-auto text-center pb-[43px]">
@@ -22,7 +22,7 @@ function BookCallSection() {
         <div className="2xl:mt-[-65px]">
           <CalllBook />
         </div>
-        <div className="pt-[30px]">
+        <div className="2xl:pt-[30px]">
           <SpeakWithExpert />
         </div>
       </Container>

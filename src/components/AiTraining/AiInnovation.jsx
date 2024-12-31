@@ -58,11 +58,11 @@ const topics = [
 
 function AiInnovation() {
   return (
-    <section className="pt-[185px] pb-[135px]">
+    <section className=" pt-[120px] 2xl:pt-[185px] pb-[40px] 2xl:pb-[135px]">
       <Container>
         {/* title  */}
         <div className="text-center 3xl:w-[1224px] mx-auto">
-          <h1 className="mt-8 title--lg" data-aos="fade-up">
+          <h1 className="mt-4  2xl:mt-8 title--lg" data-aos="fade-up">
             Revolutionizing Healthcare Through AI Innovation
           </h1>
           <p

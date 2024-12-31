@@ -33,13 +33,13 @@
     @apply underline duration-200 hover:text-btnBg;
   }
   .title--xl {
-    @apply text-[38px] 2xl:text-[58px] font-semibold leading-[48px] 2xl:leading-[88px];
+    @apply text-[26px] xl:text-[38px] 2xl:text-[58px] font-semibold leading-[48px] 2xl:leading-[88px];
   }
   .title--lg {
-    @apply text-[28px] md:text-[40px] font-semibold leading-normal;
+    @apply text-[24px] lg:text-[28px] md:text-[40px] font-semibold leading-normal;
   }
   .title--sm {
-    @apply text-[24px] font-semibold;
+    @apply text-[20px] 2xl:text-[24px] font-semibold;
   }
   .hero-section:after {
     content: "";

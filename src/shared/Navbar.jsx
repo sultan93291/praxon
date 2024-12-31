@@ -29,7 +29,7 @@ function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-[95%] z-[50]  duration-200 ease-in-out ${
+      className={`fixed top-0 left-0 w-full z-[50]   duration-200 ease-in-out ${
         isSticky
           ? "bg-primaryBg py-[26px]"
           : "bg-transparent py-[44px]"
@@ -110,10 +110,10 @@ function Navbar() {
           <div
             className={`${
               isSideBar ? "flex" : "hidden"
-            } bg-primaryBg absolute top-0 left-0 h-[100vh] w-[100vw] flex 2xl:hidden overflow-y-auto flex-col items-center justify-center gap-[70px] z-50`}
+            } bg-primaryBg absolute top-0 left-0 h-[100vh] w-[100vw] overflow-y-hidden flex 2xl:hidden  flex-col items-center justify-center gap-[35px] z-50`}
           >
             {/* Menu */}
-            <ul className="menu flex flex-col items-center justify-center gap-[35px] md:gap-[70px]">
+            <ul className="menu flex flex-col items-center justify-center gap-[25px] md:gap-[70px]">
               <li
                 onClick={() => {
                   setisSideBar(!isSideBar);
@@ -136,7 +136,6 @@ function Navbar() {
                   }`}
                 >
                   <span className=" text-[14px] sm:text-[16px] lg:text-[18px]">Industries</span>
-                  <IoIosArrowDown />
                 </p>
                 <ul
                   className={`dropdown-menu absolute ${
@@ -190,7 +189,7 @@ function Navbar() {
               data-aos="fade-in"
               data-aos-delay="300"
             >
-              <ButtonCommon text="Schedule a call" />
+              <ButtonCommon  text="Schedule a call" />
             </Link>
           </div>
         </div>

@@ -1,13 +1,13 @@
 function InnovationCard({ item }) {
   return (
     <div
-      className={`mt-[120px] flex flex-col xl:flex-row items-center gap-[105px] ${
+      className={` mt-[40px] 2xl:mt-[120px] flex flex-col xl:flex-row items-center gap-[40px] 2xl:gap-[105px] ${
         item.isReversed ? "flex-row-reverse" : ""
       }`}
     >
       <div className="3xl:w-[720px]">
         <h2
-          className="text-[32px] text-white font-semibold mb-[20px]"
+          className=" text-[22px] 2xl:text-[32px] text-white font-semibold mb-[20px]"
           data-aos="fade-up"
         >
           {item?.title}
@@ -16,7 +16,7 @@ function InnovationCard({ item }) {
           {item?.points?.map((point, index) => (
             <li
               key={point}
-              className="flex items-start gap-3 mt-4"
+              className="flex items-start gap-3 mt-2 2xl:mt-4"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
@@ -28,7 +28,7 @@ function InnovationCard({ item }) {
       </div>
       <div data-aos={item.isReversed ? "fade-right" : "fade-left"}>
         <img
-          className="h-[510px] object-cover rounded-[24px]"
+          className=" h-[300px] 2xl:h-[510px] object-cover rounded-[12px] 2xl:rounded-[24px]"
           src={item?.image}
           alt="image"
         />

@@ -73,7 +73,7 @@ const aiSolutions = [
 function ServiceSection() {
   return (
     <Element name="services">
-      <section className="mb-[120px]" id="service">
+      <section className=" mb-[40px] 2xl:mb-[120px]" id="service">
         <Container>
           {/* title  */}
           <div className="xl:w-[665px] mx-auto text-center">
@@ -81,7 +81,7 @@ function ServiceSection() {
               Our Services
             </h3>
             <p
-              className="mt-8 font-medium text-paragraphColor"
+              className="font-medium 2xl:mt-8 text-paragraphColor"
               data-aos="fade-up" data-aos-delay="100"
             >
               Harnessing advanced AI technologies and tools, we deliver
@@ -91,7 +91,7 @@ function ServiceSection() {
           </div>
           <div>
             {aiSolutions?.map((item) => (
-              <div key={item.id} className="mt-[120px]">
+              <div key={item.id} className=" mt-[30px] 2xl:mt-[120px]">
                 <ServiceCard item={item} />
               </div>
             ))}

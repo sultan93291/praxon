@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 function HeroSection() {
   return (
-    <section className="hero-section pt-[120px] 2xl:pt-[193px] pb-[120px] relative z-[1]">
+    <section className="hero-section pt-[120px] 2xl:pt-[193px] lg:pb-[120px] relative z-[1]">
       <Container>
         <div className="flex flex-col items-center justify-between 3xl:flex-row gap-y-[50px]">
           {/* text  */}
@@ -45,7 +45,7 @@ function HeroSection() {
             </div>
           </div>
           {/* image  */}
-          <div className="lg:w-[660px] w-auto h-[500px] md:h-[663px]" data-aos="zoom-in">
+          <div className="lg:w-[660px] w-[360px] md:w-[450px] h-[300px] lg:h-[663px]" data-aos="zoom-in">
             <img
               className="w-full h-full rounded-[34px] object-cover"
               src={HeroBanner}

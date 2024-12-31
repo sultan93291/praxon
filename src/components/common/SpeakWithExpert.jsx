@@ -4,7 +4,7 @@ import ButtonCommon from "../buttons/ButtonCommon";
 function SpeakWithExpert() {
   return (
     <div
-      className="bg-[#05060A] py-[85px] rounded-[40px] flex flex-col items-center "
+      className="bg-[#05060A] py-[50px] 2xl:py-[85px] rounded-[40px] flex flex-col items-center "
       data-aos="fade-up"
       data-aos-delay="50"
     >

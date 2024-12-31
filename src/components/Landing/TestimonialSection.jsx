@@ -43,9 +43,9 @@ const testimonials = [
 
 function TestimonialSection() {
   return (
-    <section className="pb-[68px] overflow-x-hidden">
+    <section className=" pb-[20px] 2xl:pb-[68px] overflow-x-hidden">
       {/* title  */}
-      <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
+      <div className="xl:w-[665px] mx-auto text-center pb-[10px] 2xl:pb-[30px]">
         <h3 className="title--lg" data-aos="fade-up">
           What Our Users Say
         </h3>
@@ -59,7 +59,7 @@ function TestimonialSection() {
         </p>
       </div>
       <p
-        className="mx-auto w-[96px] h-[16px] mt-5 mb-12"
+        className="mx-auto w-[96px] h-[16px] mt-0 2xl:mt-5 mb-6 2xl:mb-12"
         data-aos="zoom-in"
         data-aos-delay="100"
       >
@@ -72,7 +72,7 @@ function TestimonialSection() {
           ))}
         </Marquee>
       </div>
-      <div className="testimonial-marquee mt-9" data-aos="fade-right">
+      <div className="mt-4 testimonial-marquee mt-42xl:mt-9" data-aos="fade-right">
         <Marquee direction="right">
           {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} item={testimonial} />

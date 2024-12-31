@@ -7,12 +7,15 @@ import Container from "../components/container/Container";
 
 function Footer() {
   return (
-    <footer className=" bg-footerBg w-full pt-10 2xl:pt-20 rounded-tl-[64px] rounded-tr-[64px]">
-      <Container className="px-0">
+    <footer className=" bg-footerBg w-full pt-10 2xl:pt-20 rounded-tl-[30px] 2xl:rounded-tl-[64px] 2xl:rounded-tr-[64px] rounded-tr-[30px] ">
+      <Container>
         {/* footer top  */}
-        <div className="flex   flex-col xl:flex-row items-start 2xl:items-center justify-between gap-y-[20px] ">
+        <div className="flex mt-6 2xl:mt-0  px-4 2xl:px-0   flex-col xl:flex-row items-start 2xl:items-center justify-between gap-y-[20px] ">
           {/* logo  */}
-          <div className="  w-[150px] xl:w-[200px] 2xl:w-[270px] md:h-10" data-aos="fade-up">
+          <div
+            className="  w-[150px] xl:w-[200px] 2xl:w-[270px] md:h-10"
+            data-aos="fade-up"
+          >
             <Link to={"/"} className="block">
               <img className="w-full h-full" src={Logo} alt="Logo" />
             </Link>
@@ -20,9 +23,7 @@ function Footer() {
           {/* footer menu  */}
           <ul className="flex  items-start  gap-[10px]   2xl:gap-[85px] menu">
             <li data-aos="fade-up" data-aos-delay="100">
-              <Link  to={"/"}>
-                Home
-              </Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li data-aos="fade-up" data-aos-delay="200">
               <Link to={"/features"}>Features</Link>
