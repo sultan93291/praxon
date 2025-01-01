@@ -7,8 +7,8 @@ import Container from "../components/container/Container";
 
 function Footer() {
   return (
-    <footer className=" bg-footerBg w-full pt-10 2xl:pt-20 rounded-tl-[30px] 2xl:rounded-tl-[64px] 2xl:rounded-tr-[64px] rounded-tr-[30px] ">
-      <Container>
+    <footer className=" bg-footerBg w-full pt-5 2xl:pt-20 rounded-tl-[30px] 2xl:rounded-tl-[64px] 2xl:rounded-tr-[64px] rounded-tr-[30px] ">
+      <Container  >
         {/* footer top  */}
         <div className="flex mt-6 2xl:mt-0  px-4 2xl:px-0   flex-col xl:flex-row items-start 2xl:items-center justify-between gap-y-[20px] ">
           {/* logo  */}
@@ -56,7 +56,7 @@ function Footer() {
           </ul>
         </div>
         {/* footer bottom  */}
-        <div className="flex flex-col xl:flex-row gap-y-4 items-center justify-between pt-3 xl:pt-6 pb-6 2xl:pb-9 border-t border-[#373737] mt-[95px]">
+        <div className="flex flex-col xl:flex-row gap-y-4 items-center justify-between pt-3 xl:pt-6 pb-6 2xl:pb-9 border-t border-[#373737] mt-[45px] 2xl:mt-[95px]">
           <p className="text-[13px]" data-aos="fade-up">
             © Copyrights 2024 | All rights reserved by Praxon Ai{" "}
           </p>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function TeamCard({ item }) {
   return (
     <div
-      className={`flex flex-col xl:flex-row items-center justify-center gap-[52px] mt-[20px] 2xl:mt-[88px]  px-4 py-4 lg:py-10 rounded-[15px]  2xl:px-0 2xl:py-0   ${
+      className={`flex flex-col xl:flex-row items-center justify-center gap-[25px] 2xl:gap-[52px] mt-[20px] 2xl:mt-[88px]  px-4 py-4 lg:py-10 rounded-[15px]  2xl:px-0 2xl:py-0   ${
         item?.isReversed ? "flex-row-reverse" : ""
       }`}
     >
@@ -25,7 +25,7 @@ function TeamCard({ item }) {
           {item?.name}
         </h4>
         <p
-          className="mt-4 text-sm"
+          className="mt-2 text-sm 2xl:mt-4"
           data-aos={item.isReversed ? "fade-right" : "fade-left"}
           data-aos-delay="50"
         >
