@@ -22,7 +22,6 @@ function Navbar() {
       } else {
         setIsSticky(false);
       }
-      console.log(window.innerWidth)
     });
   }, []);
   console.log(isSticky);
