@@ -47,11 +47,11 @@ function FaqSection() {
       <Container>
         {/* title  */}
         <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
-          <h3 className=" text-[26px] 2xl:title--lg" data-aos="fade-up">
+          <h3 className=" text-[26px] lg:text-[36px] 2xl:title--lg" data-aos="fade-up">
             Frequently asked questions
           </h3>
           <p
-            className="mt-4 font-medium  2xl:mt-8 text-paragraphColor"
+            className="mt-4 font-medium 2xl:mt-8 text-paragraphColor"
             data-aos="fade-up"
             data-aos-delay="100"
           >
