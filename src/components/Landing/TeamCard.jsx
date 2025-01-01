@@ -8,7 +8,7 @@ function TeamCard({ item }) {
       }`}
     >
       <div
-        className="lg:w-[540px] lg:h-[536px]"
+        className="3xl:w-[540px] lg:w-[400px] md:w-[350px] lg:h-[400px]  h-[250px] md:h-[350px] 3xl:h-[536px]"
         data-aos={item.isReversed ? "fade-left" : "fade-right"}
       >
         <img

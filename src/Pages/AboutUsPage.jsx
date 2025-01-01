@@ -11,24 +11,24 @@ function AboutUsPage() {
     <section className="relative overflow-x-hidden ">
       <Container>
         <h2
-          className=" mt-[135px] md:mt-[185px] text-[28px] 2xl:text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
+          className=" mt-[125px] lg:mt-[185px]  text-[28px] 2xl:text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
           data-aos="fade-up"
         >
           Who We Are
         </h2>
         <p
-          className=" mb-[50px] 2xl:mb-[116px] text-[16px] 2xl:text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
+          className=" mb-[50px] 2xl:mb-[116px] mx-auto md:w-[500px] xl:w-[600px] 2xl:w-[800px] 3xl:w-auto  text-[16px] 2xl:text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
           data-aos="fade-up"
           data-aos-delay="100"
         >
           At Praxon AI, we are passionate about empowering individuals and teams
-          to build better habits. Our goal is to provide simple, <br />{" "}
-          effective tools that help users track, monitor, and improve their
-          daily routines
+          to build better habits. Our goal is to provide simple,{" "}
+          <br className="hidden 2xl:block" /> effective tools that help users
+          track, monitor, and improve their daily routines
         </p>
         {/* banner  */}
         <div
-          className="mx-auto 2xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[60px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
+          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-auto  3xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[60px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -78,7 +78,7 @@ function AboutUsPage() {
           </div>
           {/* {/ This is the second div /} */}
           <div className="" data-aos="fade-left">
-            <p className="text-[#A5ADBA] text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
+            <p className="text-[#A5ADBA] lg:w-[500px] 2xl:w-auto mx-auto text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
               We believe that small, consistent actions lead to significant{" "}
               <br className="hidden 2xl:block" />
               change. That’s why we designed Praxon AI to offer personalized{" "}

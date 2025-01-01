@@ -45,7 +45,7 @@ function HeroSection() {
             </div>
           </div>
           {/* image  */}
-          <div className="lg:w-[660px] w-full  h-[300px] lg:h-[663px]" data-aos="zoom-in">
+          <div className="xl:w-[660px] w-full lg:w-[550px]   h-[300px] lg:h-[400px] xl:h-[500px] 3xl:w-[500px] 3xl:h-[663px]" data-aos="zoom-in">
             <img
               className="w-full h-full rounded-[34px] object-cover"
               src={HeroBanner}

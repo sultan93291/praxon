@@ -6,7 +6,7 @@ function ServiceCard({ item }) {
       }`}
     >
       <div
-        className="xl:w-[630px] h-[450px] xl:h-[720px] overflow-hidden rounded-[12px] 2xl:rounded-[34px]"
+        className="2xl:w-[630px] xl:w-[500px] h-[350px] md:h-[450px] 2xl:h-[720px] overflow-hidden rounded-[12px] 2xl:rounded-[34px]"
         data-aos="fade-up"
       >
         <img
@@ -15,9 +15,9 @@ function ServiceCard({ item }) {
           alt="image"
         />
       </div>
-      <div className="2xl:w-[850px] flex flex-col items-center 2xl:items-start  ">
+      <div className=" md:w-[500px] lg:w-[700px] 2xl:w-[850px] flex flex-col items-center 2xl:items-start  ">
         <p
-          className="py-2 px-[44px] border border-white text-[18px] rounded-[60px] inline-block"
+          className="py-2 px-[44px] border  border-white text-[18px] rounded-[60px] inline-block"
           data-aos="fade-up"
         >
           {item?.category}
@@ -30,7 +30,7 @@ function ServiceCard({ item }) {
           {item?.title}
         </h3>
         <p
-          className=" text-[14px] 2xl:text-[18px] 2xl:pl-0 pl-[30px]  text-paragraphColor mt-3 2xl:mt-6"
+          className=" text-[14px]  2xl:text-[18px] 2xl:pl-0 pl-[30px]  text-paragraphColor mt-3 2xl:mt-6"
           data-aos="fade-up"
           data-aos-delay="100"
         >

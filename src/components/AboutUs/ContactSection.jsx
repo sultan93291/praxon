@@ -1,9 +1,9 @@
 function ContactSection() {
   return (
     <div className="  xl:flex flex-col w-full   relative  pt-[50px]    xl:pt-0   2xl:flex-row mx-auto flex-1   2xl:h-[780px] bg-[#131023]">
-      <div className="2xl:w-[976px]  mx-[25px] 2xl:mx-0 2xl:h-[715px] 4xl:pt-[162px] xl:pt-0 2xl:pt-[100px] pl-0 2xl:pl-[100px] 3xl:pl-[180px]">
+      <div className="2xl:w-[976px]  mx-[25px] 2xl:mx-0 2xl:h-[715px] 4xl:pt-[162px] xl:pt-0 2xl:pt-[100px] pl-0 2xl:pl-[100px] 4xl:pl-[180px]">
         <h1
-          className=" text-[25px] md:text-[31px] 2xl:text-[62px] font-normal mb-1 2xl:mb-6 text-[#FFF] leading-[68px] tracking-[-1.86px]"
+          className=" text-[25px] md:text-[31px] 2xl:text-[42px] 3xl:text-[52px] 4xl:text-[62px] font-normal mb-1 2xl:mb-6 text-[#FFF] leading-[68px] tracking-[-1.86px]"
           data-aos="fade-up"
         >
           Contact us

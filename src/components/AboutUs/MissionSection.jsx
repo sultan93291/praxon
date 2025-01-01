@@ -18,9 +18,10 @@ function MissionSection() {
         data-aos-delay="100"
       >
         At Praxon AI, we aim to provide the support and structure you need to
-        achieve <br /> your personal and professional goals. Whether you’re an
-        individual looking to <br /> build better praxon or a team striving for
-        more productivity, we’re here to help.
+        achieve <br className="hidden 2xl:block" /> your personal and
+        professional goals. Whether you’re an individual looking to{" "}
+        <br className="hidden 2xl:block" /> build better praxon or a team
+        striving for more productivity, we’re here to help.
       </p>
       <div className="flex flex-col 2xl:flex-row items-center justify-center gap-3 2xl:gap-6 mb-[139px]">
         <div
