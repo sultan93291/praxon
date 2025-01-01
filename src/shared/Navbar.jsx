@@ -2,7 +2,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import Logo from "../assets/images/logo/logo.svg";
 import { IoIosArrowDown } from "react-icons/io";
 import ButtonCommon from "../components/buttons/ButtonCommon";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Container from "../components/container/Container";
 
 function Navbar() {
@@ -11,8 +11,21 @@ function Navbar() {
   const [isSideBar, setisSideBar] = useState(false);
   const location = useLocation();
   const isDropdownActive = location.pathname.startsWith("/industries");
+  const dropdownRef = useRef(null);
 
   console.log(isSideBar);
+
+  useEffect(() => {
+    const handleClickOutside = event => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropDownShow(false); 
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   useEffect(() => {
     document.addEventListener("scroll", function () {
@@ -29,9 +42,7 @@ function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-[50]   duration-200 ease-in-out ${
-        isSticky
-          ? "bg-primaryBg py-[26px]"
-          : "bg-transparent py-[44px]"
+        isSticky ? "bg-primaryBg py-[26px]" : "bg-transparent py-[44px]"
       }`}
     >
       <Container>
@@ -124,20 +135,24 @@ function Navbar() {
               </li>
               <li
                 className="relative dropdown"
-                onMouseEnter={() => setIsDropDownShow(true)}
-                onMouseLeave={() => setIsDropDownShow(false)}
+                onClick={() => {
+                  setIsDropDownShow(!isDropdownShow);
+                }}
                 data-aos="fade-in"
                 data-aos-delay="200"
               >
                 <p
-                  className={`trigger text-[8px]   flex items-center gap-2 cursor-pointer ${
+                  className={`trigger text-[8px]    flex items-center gap-2 cursor-pointer ${
                     isDropdownActive ? "active" : ""
                   }`}
                 >
-                  <span className=" text-[14px] sm:text-[16px] lg:text-[18px]">Industries</span>
+                  <span className="  text-[14px] sm:text-[16px] lg:text-[18px]">
+                    Industries
+                  </span>
                 </p>
                 <ul
-                  className={`dropdown-menu absolute ${
+                  ref={dropdownRef}
+                  className={` bg-primaryBlack py-3 w-[110px] flex  justify-center rounded-[12px] overflow-hidden min-h-[100px] duration-200 ease-in-out absolute  ${
                     isDropdownShow
                       ? "opacity-100 visible top-0 left-[-125px]"
                       : "opacity-0 invisible top-0"
@@ -147,13 +162,11 @@ function Navbar() {
                     onClick={() => {
                       setisSideBar(!isSideBar);
                     }}
-                    className="z-[11111]"
+                    className="z-[11111] "
                   >
-                    <NavLink
-                      to={"/industries/healthcare"}
-                    >
+                    <NavLink to={"/industries/healthcare"}>
                       {" "}
-                      <span className="text-sm" > Health Care </span>{" "}
+                      <span className="text-sm"> Health Care </span>{" "}
                     </NavLink>
                   </li>
                 </ul>
@@ -188,7 +201,7 @@ function Navbar() {
               data-aos="fade-in"
               data-aos-delay="300"
             >
-              <ButtonCommon  text="Schedule a call" />
+              <ButtonCommon text="Schedule a call" />
             </Link>
           </div>
         </div>

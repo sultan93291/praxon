@@ -28,7 +28,7 @@ function AboutUsPage() {
         </p>
         {/* banner  */}
         <div
-          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-auto  3xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[60px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
+          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-[1200px] 4xl:w-auto  4xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[60px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -78,7 +78,7 @@ function AboutUsPage() {
           </div>
           {/* {/ This is the second div /} */}
           <div className="" data-aos="fade-left">
-            <p className="text-[#A5ADBA] lg:w-[500px] 2xl:w-auto mx-auto text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
+            <p className="text-[#A5ADBA] pt-[20px] 3xl:pt-0 lg:w-[500px] 2xl:w-auto mx-auto text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
               We believe that small, consistent actions lead to significant{" "}
               <br className="hidden 2xl:block" />
               change. That’s why we designed Praxon AI to offer personalized{" "}
@@ -91,7 +91,7 @@ function AboutUsPage() {
         </div>
         <MissionSection />
         {/* {/ Company Values Section start /} */}
-        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[320px] mb-[320px] 2xl:mb-[443.84px] sm:mb-[243px] 3xl:mb-[100px] 4xl:w-[1600px] h-[523px] ">
+        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[350px] sm:mt-[250px] xl:mt-[200px] mb-[280px] 4xl:mb-[243.84px] sm:mb-[243px]  4xl:w-[1600px] h-[523px] ">
           {/* {/ This is the first div /} */}
           <div className="flex flex-col items-center ">
             <h1
@@ -101,7 +101,7 @@ function AboutUsPage() {
               Company Values
             </h1>
             <p
-              className="text-[#A5ADBA] text-center 2xl:text-left  text-[14px] 2xl:text-[20px] font-normal leading-[150%]"
+              className="text-[#A5ADBA] pb-[20px] 3xl:pb-0 text-center 2xl:text-left  text-[14px] 2xl:text-[20px] font-normal leading-[150%]"
               data-aos="fade-up"
               data-aos-delay="100"
             >
