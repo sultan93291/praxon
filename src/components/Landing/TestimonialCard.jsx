@@ -16,7 +16,7 @@ function TestimonialCard({ item }) {
           <p className=" text-xs w-[250px] xl:w-auto xl:text-[18px] leading-5 xl:leading-8 text-gray-300 mt-3">
             {item?.feedback}
           </p>
-          <p className=" text-[8px] xl:text-[18px] text-[#FFF5EB] mt-2">{item?.author}</p>
+          <p className=" text-[12px] xl:text-[18px] text-[#FFF5EB] mt-2">{item?.author}</p>
         </div>
         <img
           className="absolute w-3 h-3 xl:h-6 xl:w-6 right-3 bottom-4 xl:right-6 xl:bottom-8"
