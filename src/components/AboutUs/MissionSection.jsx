@@ -13,7 +13,7 @@ function MissionSection() {
         Our Mission is Simple Helping <br /> You Succeed
       </h2>
       <p
-        className="mb-[80px] text-[#A5ADBA] text-center text-[16px] 2xl:text-[20px] font-normal leading-[150%]"
+        className=" mb-[30px] 2xl:mb-[80px] text-[#A5ADBA] text-center text-[16px] 2xl:text-[20px] font-normal leading-[150%]"
         data-aos="fade-up"
         data-aos-delay="100"
       >
@@ -22,7 +22,7 @@ function MissionSection() {
         individual looking to <br /> build better praxon or a team striving for
         more productivity, we’re here to help.
       </p>
-      <div className="flex flex-col 2xl:flex-row items-center justify-center  gap-6 mb-[139px]">
+      <div className="flex flex-col 2xl:flex-row items-center justify-center gap-3 2xl:gap-6 mb-[139px]">
         <div
           className="w-full 2xl:w-[517px] h-auto 3xl:h-[317px] bg-[#131023] rounded-3xl p-[16px] 2xl:p-[32px] border border-transparent hover:border-blue-400 hover:shadow-lg transition-all duration-300 ease-in-out"
           onMouseEnter={() => setIsHoveredCard1(true)}

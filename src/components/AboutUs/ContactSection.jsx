@@ -3,20 +3,20 @@ function ContactSection() {
     <div className="  xl:flex flex-col w-full   relative  pt-[50px]    xl:pt-0   2xl:flex-row mx-auto flex-1   2xl:h-[780px] bg-[#131023]">
       <div className="2xl:w-[976px]  mx-[25px] 2xl:mx-0 2xl:h-[715px] 4xl:pt-[162px] xl:pt-0 2xl:pt-[100px] pl-0 2xl:pl-[100px] 3xl:pl-[180px]">
         <h1
-          className=" text-[25px] md:text-[31px] 2xl:text-[62px] font-normal mb-6 text-[#FFF] leading-[68px] tracking-[-1.86px]"
+          className=" text-[25px] md:text-[31px] 2xl:text-[62px] font-normal mb-1 2xl:mb-6 text-[#FFF] leading-[68px] tracking-[-1.86px]"
           data-aos="fade-up"
         >
           Contact us
         </h1>
         <p
-          className=" text-[14px] md:text-[18px] mb-[64px] text-[#A5ADBA] font-normal leading-[26px] tracking-[-0.072px]"
+          className=" text-[14px] md:text-[18px] mb-[32px] 2xl:mb-[64px] text-[#A5ADBA] font-normal leading-[26px] tracking-[-0.072px]"
           data-aos="fade-up"
           data-aos-delay="100"
         >
           We are here to help you make a first move to greener choice.
         </p>
         <div
-          className="flex flex-row items-center justify-start gap-2 mb-6"
+          className="flex flex-row items-center justify-start gap-2 mb-3 2xl:mb-6"
           data-aos="fade-up"
           data-aos-delay="50"
         >
@@ -47,7 +47,7 @@ function ContactSection() {
           </p>
         </div>
         <div
-          className="flex flex-row items-center justify-start gap-2 mb-6"
+          className="flex flex-row items-center justify-start gap-2 mb-3 2xl:mb-6"
           data-aos="fade-up"
           data-aos-delay="100"
         >

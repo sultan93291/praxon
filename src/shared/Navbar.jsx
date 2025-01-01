@@ -113,7 +113,7 @@ function Navbar() {
             } bg-primaryBg absolute top-0 left-0 h-[100vh] w-[100vw] overflow-y-hidden flex 2xl:hidden  flex-col items-center justify-center gap-[35px] z-50`}
           >
             {/* Menu */}
-            <ul className="menu flex flex-col items-center justify-center gap-[25px] md:gap-[70px]">
+            <ul className="menu flex flex-col items-center justify-center gap-[25px] ">
               <li
                 onClick={() => {
                   setisSideBar(!isSideBar);
