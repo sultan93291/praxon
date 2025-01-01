@@ -2,7 +2,7 @@ function InnovationCard({ item }) {
   return (
     <div
       className={` mt-[40px] 2xl:mt-[120px] flex flex-col xl:flex-row items-center gap-[40px] 2xl:gap-[105px] ${
-        item.isReversed ? "flex-row-reverse" : ""
+        item.isReversed ? "xl:flex-row-reverse" : ""
       }`}
     >
       <div className="3xl:w-[720px]">

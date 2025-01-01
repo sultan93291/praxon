@@ -4,7 +4,7 @@ function TeamCard({ item }) {
   return (
     <div
       className={`flex flex-col xl:flex-row items-center justify-center gap-[25px] 2xl:gap-[52px] mt-[20px] 2xl:mt-[88px]  px-4 py-4 lg:py-10 rounded-[15px]  2xl:px-0 2xl:py-0   ${
-        item?.isReversed ? "flex-row-reverse" : ""
+        item?.isReversed ? "2xl:flex-row-reverse" : ""
       }`}
     >
       <div

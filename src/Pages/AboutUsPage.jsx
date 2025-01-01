@@ -11,13 +11,13 @@ function AboutUsPage() {
     <section className="relative overflow-x-hidden " >
       <Container>
         <h2
-          className="mt-[185px] text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
+          className=" mt-[135px] md:mt-[185px] text-[28px] 2xl:text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
           data-aos="fade-up"
         >
           Who We Are
         </h2>
         <p
-          className="mb-[116px] text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
+          className=" mb-[50px] 2xl:mb-[116px] text-[16px] 2xl:text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -28,7 +28,7 @@ function AboutUsPage() {
         </p>
         {/* banner  */}
         <div
-          className="mx-auto 2xl:max-w-[1560px] h-[713px] mb-[160px] rounded-[32px] overflow-hidden"
+          className="mx-auto 2xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
           data-aos="fade-up"
           data-aos-delay="200"
         >

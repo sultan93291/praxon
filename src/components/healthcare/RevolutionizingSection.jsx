@@ -92,7 +92,7 @@ function RevolutionizingSection() {
       <Container>
         <div>
           {/* title  */}
-          <div className="text-center 3xl:w-[1224px] mx-auto">
+          <div className="text-center xl:w-[700px]  3xl:w-[1224px] mx-auto">
             <p
               className="text-[18px] border border-btnBg rounded-[100px] text-btnBg py-3 px-[30px] inline-block"
               data-aos="fade-up"

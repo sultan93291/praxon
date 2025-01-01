@@ -1,8 +1,8 @@
 function ServiceCard({ item }) {
   return (
     <div
-      className={`flex flex-col 2xl:flex-row   lg:px-5 xl:py-16 lg:py-8 py-4 rounded-[15px] 2xl:border-transparent 2xl:px-0 2xl:py-0  items-center justify-between gap-10 2xl:gap-20 ${
-        item.isReversed ? "flex-row-reverse" : ""
+      className={`flex flex-col 2xl:flex-row  lg:px-5 xl:py-16 lg:py-8 py-4 rounded-[15px]  2xl:px-0 2xl:py-0  items-center justify-between   gap-10 2xl:gap-20 ${
+        item.isReversed ? "2xl:flex-row-reverse" : ""
       }`}
     >
       <div

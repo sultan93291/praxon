@@ -84,5 +84,5 @@
   }
 }
 .calendly-inline-widget {
-  @apply !h-[700px];
+  @apply !h-[300px] md:!h-[500px] 2xl:!h-[700px];
 }

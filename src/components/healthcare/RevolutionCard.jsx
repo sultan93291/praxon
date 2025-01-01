@@ -4,7 +4,7 @@ function RevolutionCard({ item }) {
   return (
     <div
       className={`flex flex-col 3xl:flex-row items-center gap-[74px] revolution-card mt-[72px] ${
-        item.isReversed ? "flex-row-reverse" : ""
+        item.isReversed ? "3xl:flex-row-reverse" : ""
       }`}
     >
       <div className="xl:w-[722px]">

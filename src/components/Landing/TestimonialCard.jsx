@@ -13,7 +13,7 @@ function TestimonialCard({ item }) {
         </div>
         <div>
           <h3 className=" text-[14px] w-[250px] lg:w-auto lg:text-[20px] font-bold text-white">{item?.title}</h3>
-          <p className=" text-xs w-[250px] lg:w-auto lg:text-[18px] text-paragraphColor mt-3">
+          <p className=" text-xs w-[250px] lg:w-auto lg:text-[18px] text-gray-300 mt-3">
             {item?.feedback}
           </p>
           <p className=" text-[8px] lg:text-[18px] text-[#FFF5EB] mt-2">{item?.author}</p>
