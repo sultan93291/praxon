@@ -10,7 +10,7 @@ function HeroSection() {
       <Container>
         <div className="flex flex-col items-center justify-between 3xl:flex-row gap-y-[25px] lg:gap-y-[50px]">
           {/* text  */}
-          <div className="2xl:w-[809px] xs:w-[350px] sm:w-[440px] md:w-[536px] lg:w-[700px] ">
+          <div className="2xl:w-[809px] xs:w-[340px] sm:w-[440px] md:w-[536px] lg:w-[700px] ">
             <h1 className="title--xl" data-aos="fade-up">
               Innovative AI, Designed Exclusively for Your Success
             </h1>

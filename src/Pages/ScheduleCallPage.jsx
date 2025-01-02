@@ -19,7 +19,7 @@ function ScheduleCallPage() {
             Ready to Transform?
           </p>
         </div>
-        <div className="lg:mt-[-65px]">
+        <div className=" mt-[-35px] lg:mt-[-65px]">
           <CalllBook />
         </div>
       </Container>
