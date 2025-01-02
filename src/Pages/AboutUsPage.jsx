@@ -42,13 +42,13 @@ function AboutUsPage() {
         <div className="flex flex-col 3xl:flex-row 4xl:w-[1560px] gap-[20px] 2xl:gap-[80px] mb-[100px] 2xl:mb-[178.87px]">
           <div>
             <h2
-              className="text-[#FFF] text-center 3xl:text-left text-[28px] 2xl:text-[40px]  3xl:text-[56px] font-semibold leading-[120%]"
+              className="text-[#FFF] text-center 3xl:text-left text-[22px] lg:text-[28px] 2xl:text-[40px]  3xl:text-[56px] font-semibold leading-[120%]"
               data-aos="fade-right"
             >
               Transforming the Way You Build <br /> Praxon AI
             </h2>
             {/* {/ 4+ Years Expericed Card /} */}
-            <div className="flex flex-wrap items-center justify-center 3xl:items-start 3xl:justify-start   2xl:gap-6 gap-4 mx-auto mt-[50px] 2xl:mt-[75px]">
+            <div className="flex flex-wrap items-center justify-center 3xl:items-start 3xl:justify-start   2xl:gap-6 gap-4 mx-auto mt-[30px] 2xl:mt-[75px]">
               <div
                 className=" w-[422px] bg-[#131023] h-[190px] rounded-3xl pt-[32px] pb-[24px] pr-[24px] pl-[24px]"
                 data-aos="fade-up"
