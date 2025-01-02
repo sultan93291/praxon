@@ -1,7 +1,7 @@
 function ServiceCard({ item }) {
   return (
     <div
-      className={`flex flex-col 2xl:flex-row  lg:px-5 xl:py-16 lg:py-8 py-4 rounded-[15px]  2xl:px-0 2xl:py-0  items-center justify-between  gap-5 md:gap-10 2xl:gap-20 ${
+      className={`flex flex-col 2xl:flex-row  lg:px-5 xl:py-16 lg:py-8 py-4 rounded-[15px]  2xl:px-0 2xl:py-0  items-center justify-between  gap-6 md:gap-10 2xl:gap-20 ${
         item.isReversed ? "2xl:flex-row-reverse" : ""
       }`}
     >
@@ -23,7 +23,7 @@ function ServiceCard({ item }) {
           {item?.category}
         </p>
         <h3
-          className=" text-[20px] text-center  md:text-[24px] 2xl:text-left 2xl:pl-0 2xl:text-[32px]   font-semibold mt-5 xl:mt-10"
+          className=" text-[20px] text-center  md:text-[24px] 2xl:text-left 2xl:pl-0 2xl:text-[32px]   font-semibold mt-6 xl:mt-10"
           data-aos="fade-up"
           data-aos-delay="50"
         >

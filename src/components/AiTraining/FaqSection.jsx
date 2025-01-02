@@ -31,7 +31,7 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <section className="pb-[80px] pt-[20px] 2xl:pt-0 2xl:pb-[130px]">
+    <section className="pb-[20px] pt-[20px] 2xl:pt-0 2xl:pb-[130px]">
       <Container>
         {/* title  */}
         <div className=" w-auto 2xl:w-[665px] mx-auto text-center pb-[20px] md:pb-[30px]">

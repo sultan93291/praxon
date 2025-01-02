@@ -58,7 +58,7 @@ const topics = [
 
 function AiInnovation() {
   return (
-    <section className=" pt-[120px] 2xl:pt-[185px] pb-[135px]">
+    <section className=" pt-[100px] 2xl:pt-[185px] pb-[60px]">
       <Container>
         {/* title  */}
         <div className="text-center 3xl:w-[1224px] mx-auto">
@@ -74,7 +74,7 @@ function AiInnovation() {
             revolutionize industries and drive success.
           </p>
         </div>
-        <div className="pt-[30px]">
+        <div className=" pt-[10px] 2xl:pt-[30px]">
           {topics.map((item) => (
             <InnovationCard key={item.id} item={item} />
           ))}

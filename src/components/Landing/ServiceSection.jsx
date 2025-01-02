@@ -73,7 +73,7 @@ const aiSolutions = [
 function ServiceSection() {
   return (
     <Element name="services">
-      <section className=" mb-[100px] 2xl:mb-[120px]" id="service">
+      <section className=" mb-[60px] 2xl:mb-[120px]" id="service">
         <Container>
           {/* title  */}
           <div className="xl:w-[665px] mx-auto text-center">

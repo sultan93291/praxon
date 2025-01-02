@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function TeamCard({ item }) {
   return (
     <div
-      className={`flex flex-col xl:flex-row items-center justify-center gap-[25px] 2xl:gap-[52px] mt-[50px] 2xl:mt-[88px]   py-4 lg:py-10 rounded-[15px]  2xl:px-0 2xl:py-0   ${
+      className={`flex flex-col xl:flex-row items-center justify-center gap-[25px] 2xl:gap-[52px] mt-[25px] 2xl:mt-[88px]   py-4 lg:py-10 rounded-[15px]  2xl:px-0 2xl:py-0   ${
         item?.isReversed ? "xl:flex-row-reverse" : ""
       }`}
     >

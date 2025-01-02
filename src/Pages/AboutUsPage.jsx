@@ -11,7 +11,7 @@ function AboutUsPage() {
     <section className="relative overflow-x-hidden ">
       <Container>
         <h2
-          className=" mt-[125px] lg:mt-[185px]  text-[28px] 2xl:text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
+          className=" mt-[120px] lg:mt-[185px]  text-[28px] 2xl:text-[40px] font-semibold mb-[27px] text-white text-center leading-[132%]"
           data-aos="fade-up"
         >
           Who We Are
@@ -28,7 +28,7 @@ function AboutUsPage() {
         </p>
         {/* banner  */}
         <div
-          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-[1200px] 4xl:w-auto  4xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[140px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
+          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-[1200px] 4xl:w-auto  4xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[80px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -39,7 +39,7 @@ function AboutUsPage() {
           />
         </div>
         {/* {/ This is the div section /} */}
-        <div className="flex flex-col 3xl:flex-row 4xl:w-[1560px] gap-[20px] 2xl:gap-[80px] mb-[160px] 2xl:mb-[178.87px]">
+        <div className="flex flex-col 3xl:flex-row 4xl:w-[1560px] gap-[20px] 2xl:gap-[80px] mb-[100px] 2xl:mb-[178.87px]">
           <div>
             <h2
               className="text-[#FFF] text-center 3xl:text-left text-[28px] 2xl:text-[40px]  3xl:text-[56px] font-semibold leading-[120%]"
@@ -91,7 +91,7 @@ function AboutUsPage() {
         </div>
         <MissionSection />
         {/* {/ Company Values Section start /} */}
-        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[350px] sm:mt-[250px] xl:mt-[200px] mb-[320px] 4xl:mb-[243.84px] sm:mb-[243px]  4xl:w-[1600px] h-[523px] ">
+        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[350px] sm:mt-[250px] xl:mt-[200px] mb-[280px] 4xl:mb-[243.84px] sm:mb-[243px]  4xl:w-[1600px] h-[523px] ">
           {/* {/ This is the first div /} */}
           <div className="flex flex-col items-center ">
             <h1

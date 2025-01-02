@@ -43,10 +43,10 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <section className=" pb-[100px]">
+    <section className=" pb-[60px]">
       <Container>
         {/* title  */}
-        <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
+        <div className="xl:w-[665px] mx-auto text-center pb-[20px]">
           <h3 className=" text-[26px] lg:text-[36px] 2xl:title--lg" data-aos="fade-up">
             Frequently asked questions
           </h3>

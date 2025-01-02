@@ -25,7 +25,7 @@ const tools = [
 
 function ToolsSection() {
   return (
-    <section className=" pt-[35px] 2xl:pt-[70px] pb-[120px] overflow-hidden">
+    <section className=" pt-[35px] 2xl:pt-[70px] pb-[70px] overflow-hidden">
       <Container>
         {/* title  */}
         <div className="lg:w-[495px] mx-auto mb-6 2xl:mb-10">

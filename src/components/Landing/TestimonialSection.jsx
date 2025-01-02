@@ -43,7 +43,7 @@ const testimonials = [
 
 function TestimonialSection() {
   return (
-    <section className=" mt-[50px] pb-[50px] 2xl:pb-[68px] overflow-x-hidden">
+    <section className=" mt-[20px] pb-[50px] 2xl:pb-[68px] overflow-x-hidden">
       {/* title  */}
       <div className="xl:w-[665px] mx-auto text-center pb-[20px] 2xl:pb-[30px]">
         <h3 className="title--lg" data-aos="fade-up">

@@ -4,7 +4,7 @@ import ElipsOne from "../assets/images/elips1.png";
 
 function ScheduleCallPage() {
   return (
-    <section className="pt-[185px] 2xl:pb-[165px] relative z-[1]">
+    <section className="pt-[120px] 2xl:pb-[165px] relative z-[1]">
       <Container>
         {/* title  */}
         <div className=" w-[300px] xs:w-auto 3xl:w-[1224px] mx-auto text-center pb-[70px]">

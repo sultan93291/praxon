@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function RevolutionCard({ item }) {
   return (
     <div
-      className={`flex flex-col-reverse 3xl:flex-row items-center gap-[20px] md:gap-[35px] 3xl:gap-[74px] revolution-card mt-[50px] 2x:mt-[72px] ${
+      className={`flex flex-col-reverse 3xl:flex-row items-center gap-[20px] md:gap-[35px] 3xl:gap-[74px] revolution-card mt-[40px] 2x:mt-[72px] ${
         item.isReversed ? "3xl:flex-row-reverse" : ""
       }`}
     >

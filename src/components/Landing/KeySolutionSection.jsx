@@ -64,7 +64,7 @@ const aiFeatures = [
 
 function KeySolutionSection() {
   return (
-    <section className=" pb-[120px] overflow-hidden">
+    <section className=" pb-[70px] 2xl:pb-[120px] overflow-hidden">
       <Container>
         {/* title  */}
         <div className="xl:w-[665px] mx-auto text-center pb-[35px] 2xl:pb-[90px]">
