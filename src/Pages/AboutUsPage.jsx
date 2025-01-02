@@ -17,7 +17,7 @@ function AboutUsPage() {
           Who We Are
         </h2>
         <p
-          className=" mb-[50px] 2xl:mb-[116px] mx-auto md:w-[500px] xl:w-[600px] 2xl:w-[800px] 3xl:w-auto  text-[16px] 2xl:text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
+          className=" mb-[30px] 2xl:mb-[116px] mx-auto md:w-[500px] xl:w-[600px] 2xl:w-[800px] 3xl:w-auto  text-[16px] 2xl:text-[18px] text-paragraphColor text-center font-normal leading-[172%]"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -28,7 +28,7 @@ function AboutUsPage() {
         </p>
         {/* banner  */}
         <div
-          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-[1200px] 4xl:w-auto  4xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[60px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
+          className="mx-auto md:w-[500px] lg:w-[600px] xl:w-[700px] 2xl:w-[900px] 3xl:w-[1200px] 4xl:w-auto  4xl:max-w-[1560px] h-[350px] md:h-[450px] 2xl:h-[713px] mb-[140px] 2xl:mb-[160px] rounded-[18px]   2xl:rounded-[32px] overflow-hidden"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -39,7 +39,7 @@ function AboutUsPage() {
           />
         </div>
         {/* {/ This is the div section /} */}
-        <div className="flex flex-col 3xl:flex-row 4xl:w-[1560px] gap-[20px] 2xl:gap-[80px] mb-[120px] 2xl:mb-[178.87px]">
+        <div className="flex flex-col 3xl:flex-row 4xl:w-[1560px] gap-[20px] 2xl:gap-[80px] mb-[160px] 2xl:mb-[178.87px]">
           <div>
             <h2
               className="text-[#FFF] text-center 3xl:text-left text-[28px] 2xl:text-[40px]  3xl:text-[56px] font-semibold leading-[120%]"
@@ -48,7 +48,7 @@ function AboutUsPage() {
               Transforming the Way You Build <br /> Praxon AI
             </h2>
             {/* {/ 4+ Years Expericed Card /} */}
-            <div className="flex flex-wrap items-center justify-center 3xl:items-start 3xl:justify-start   2xl:gap-6 gap-3 mx-auto mt-[30px] 2xl:mt-[75px]">
+            <div className="flex flex-wrap items-center justify-center 3xl:items-start 3xl:justify-start   2xl:gap-6 gap-4 mx-auto mt-[50px] 2xl:mt-[75px]">
               <div
                 className=" w-[422px] bg-[#131023] h-[190px] rounded-3xl pt-[32px] pb-[24px] pr-[24px] pl-[24px]"
                 data-aos="fade-up"
@@ -78,7 +78,7 @@ function AboutUsPage() {
           </div>
           {/* {/ This is the second div /} */}
           <div className="" data-aos="fade-left">
-            <p className="text-[#A5ADBA] pt-[20px] 3xl:pt-0 lg:w-[500px] 2xl:w-auto mx-auto text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
+            <p className="text-[#A5ADBA] pt-[10px] 3xl:pt-0 lg:w-[500px] 2xl:w-auto mx-auto text-center 3xl:text-left text-[16px] 2xl:text-[20px] font-normal leading-[150%]">
               We believe that small, consistent actions lead to significant{" "}
               <br className="hidden 2xl:block" />
               change. That’s why we designed Praxon AI to offer personalized{" "}
@@ -91,7 +91,7 @@ function AboutUsPage() {
         </div>
         <MissionSection />
         {/* {/ Company Values Section start /} */}
-        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[350px] sm:mt-[250px] xl:mt-[200px] mb-[280px] 4xl:mb-[243.84px] sm:mb-[243px]  4xl:w-[1600px] h-[523px] ">
+        <div className="flex flex-col gap-y-12  justify-center  3xl:flex-row 3xl:gap-[150px] 4xl:gap-[96px] mt-[350px] sm:mt-[250px] xl:mt-[200px] mb-[320px] 4xl:mb-[243.84px] sm:mb-[243px]  4xl:w-[1600px] h-[523px] ">
           {/* {/ This is the first div /} */}
           <div className="flex flex-col items-center ">
             <h1

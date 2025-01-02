@@ -57,10 +57,10 @@ function Footer() {
         </div>
         {/* footer bottom  */}
         <div className="flex flex-col xl:flex-row gap-y-4 items-center justify-between pt-3 xl:pt-6 pb-6 2xl:pb-9 border-t border-[#373737] mt-[45px] 2xl:mt-[95px]">
-          <p className="text-[13px]" data-aos="fade-up">
+          <p className="text-[12px] md:text-[13px]" data-aos="fade-up">
             © Copyrights 2024 | All rights reserved by Praxon Ai{" "}
           </p>
-          <ul className="footer-bottom-menu w-full xl:w-auto  flex    text-xs  sm:items-center justify-center gap-6 2xl:gap-[30px]">
+          <ul className="footer-bottom-menu w-full xl:w-auto  flex    text-xs  sm:items-center justify-center gap-3 md:gap-6 2xl:gap-[30px]">
             <li data-aos="fade-up" data-aos-delay="100">
               <Link to={"/"}>Privacy Policy</Link>
             </li>

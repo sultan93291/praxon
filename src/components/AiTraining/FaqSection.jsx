@@ -31,15 +31,15 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <section className="pb-[40px] 2xl:pb-[130px]">
+    <section className="pb-[80px] pt-[20px] 2xl:pt-0 2xl:pb-[130px]">
       <Container>
         {/* title  */}
-        <div className=" w-auto 2xl:w-[665px] mx-auto text-center pb-[30px]">
+        <div className=" w-auto 2xl:w-[665px] mx-auto text-center pb-[20px] md:pb-[30px]">
           <h3 className="title--lg" data-aos="fade-up">
             Frequently asked questions
           </h3>
           <p
-            className="mt-8 font-medium text-paragraphColor"
+            className="mt-6 font-medium xl:mt-8 text-paragraphColor"
             data-aos="fade-up"
             data-aos-delay="100"
           >

@@ -4,7 +4,7 @@ import Container from "../container/Container";
 
 function BookCallSection() {
   return (
-    <section className="call-book pb-[40px] 2xl:pb-[120px]">
+    <section className="call-book pt-[40px] 2xl:pt-0 pb-[80px] 2xl:pb-[120px]">
       <Container>
         {/* title  */}
         <div className=" w-[300px] 2xl:w-[665px] mx-auto text-center pb-[20px] 2xl:pb-[43px]">
@@ -12,7 +12,7 @@ function BookCallSection() {
             Let’s Do It
           </h3>
           <p
-            className="mt-8 font-medium text-paragraphColor"
+            className="mt-6 font-medium 2xl:mt-8 text-paragraphColor"
             data-aos="fade-up"
             data-aos-delay="100"
           >

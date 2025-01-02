@@ -88,7 +88,7 @@ const caseStudies = [
 
 function RevolutionizingSection() {
   return (
-    <section className=" pt-[150px] pb-[40px] 2xl:pb-[130px] relative z-[1]">
+    <section className=" pt-[150px] pb-[90px] 2xl:pb-[130px] relative z-[1]">
       <Container>
         <div>
           {/* title  */}
@@ -100,14 +100,14 @@ function RevolutionizingSection() {
               Healthcare Case Studies
             </p>
             <h1
-              className="mt-8 title--lg"
+              className="mt-6 2xl:mt-8 title--lg"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               Revolutionizing Healthcare Through AI Innovation
             </h1>
             <p
-              className="text-[18px] text-paragraphColor mt-7 leading-[30px]"
+              className="text-[18px] text-paragraphColor mt-5 2xl:mt-7 leading-[30px]"
               data-aos="fade-up"
               data-aos-delay="150"
             >
@@ -118,12 +118,12 @@ function RevolutionizingSection() {
               of your industry.
             </p>
           </div>
-          <div>
+          <div className="pt-[60px]" >
             {caseStudies.map((item) => (
               <RevolutionCard key={item.id} item={item} />
             ))}
           </div>
-          <div className=" pt-[40px] 2xl:pt-[128px]">
+          <div className=" pt-[80px] 2xl:pt-[128px]">
             <SpeakWithExpert />
           </div>
         </div>

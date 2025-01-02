@@ -1,7 +1,7 @@
 function InnovationCard({ item }) {
   return (
     <div
-      className={` mt-[40px] 2xl:mt-[120px] flex flex-col xl:flex-row items-center gap-[40px] 2xl:gap-[105px] ${
+      className={` mt-[60px] 2xl:mt-[120px] flex flex-col-reverse xl:flex-row items-center gap-[20px] xl:gap-[40px] 2xl:gap-[105px] ${
         item.isReversed ? "xl:flex-row-reverse" : ""
       }`}
     >
