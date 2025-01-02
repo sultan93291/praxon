@@ -7,7 +7,7 @@ function ScheduleCallPage() {
     <section className="pt-[185px] 2xl:pb-[165px] relative z-[1]">
       <Container>
         {/* title  */}
-        <div className="3xl:w-[1224px] mx-auto text-center pb-[70px]">
+        <div className=" w-[300px] xs:w-auto 3xl:w-[1224px] mx-auto text-center pb-[70px]">
           <h3 className="title--lg" data-aos="fade-up">
             Discover the Power of AI with Praxon.
           </h3>
@@ -19,7 +19,7 @@ function ScheduleCallPage() {
             Ready to Transform?
           </p>
         </div>
-        <div className="mt-[-65px]">
+        <div className="lg:mt-[-65px]">
           <CalllBook />
         </div>
       </Container>
