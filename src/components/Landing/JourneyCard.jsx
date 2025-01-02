@@ -4,7 +4,7 @@ import ButtonCommon from "../buttons/ButtonCommon";
 function JourneyCard() {
   return (
     <div
-      className=" py-[50px] md:py-[70px] 3xl:py-[116px] px-[20px] 2xl:px-[316px] bg-faqBg rounded-[48px] text-center"
+      className=" py-[50px] md:py-[70px] 3xl:py-[116px] px-[20px] 2xl:px-[316px] bg-faqBg rounded-[24px] 2xl:rounded-[48px] text-center"
       data-aos="fade-up"
       data-aos-delay="200"
     >

@@ -64,15 +64,15 @@ const aiFeatures = [
 
 function KeySolutionSection() {
   return (
-    <section className=" pb-[40px] 2xl:pb-[120px] overflow-hidden">
+    <section className=" pb-[120px] overflow-hidden">
       <Container>
         {/* title  */}
-        <div className="xl:w-[665px] mx-auto text-center pb-[45px] 2xl:pb-[90px]">
+        <div className="xl:w-[665px] mx-auto text-center pb-[35px] 2xl:pb-[90px]">
           <h3 className="title--lg" data-aos="fade-up">
             Our Key solutions
           </h3>
           <p
-            className="mt-8 font-medium text-paragraphColor"
+            className="mt-5 font-medium 2xl:mt-8 text-paragraphColor"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -83,7 +83,7 @@ function KeySolutionSection() {
         <div className="flex flex-wrap items-start row-custom">
           {aiFeatures.map((item, index) => (
             <div
-              className={`custom-wrap mt-2 2xl:mt-8 ${
+              className={`custom-wrap mt-4 2xl:mt-8 ${
                 item.layout === "half" ? " w-[100%] 2xl:w-[33.33%]" : " w-[100%] 2xl:w-[50%]"
               }`}
               key={item?.title}

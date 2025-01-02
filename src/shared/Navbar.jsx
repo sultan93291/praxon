@@ -42,7 +42,7 @@ function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-[50]   duration-200 ease-in-out ${
-        isSticky ? "bg-primaryBg py-[26px]" : "bg-transparent py-[44px]"
+        isSticky ? "bg-primaryBg py-[26px]" : "bg-transparent py-[26px] xl:py-[44px]"
       }`}
     >
       <Container>
@@ -146,8 +146,9 @@ function Navbar() {
                     isDropdownActive ? "active" : ""
                   }`}
                 >
-                  <span className="  text-[14px] sm:text-[16px] lg:text-[18px]">
+                  <span className=" flex items-center gap-1 text-[14px] sm:text-[16px] lg:text-[18px]">
                     Industries
+                    <IoIosArrowDown />
                   </span>
                 </p>
                 <ul

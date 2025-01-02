@@ -43,7 +43,7 @@ const faqData = [
 
 function FaqSection() {
   return (
-    <section className=" pb-[50px] 2xl:pb-[100px]">
+    <section className=" pb-[100px]">
       <Container>
         {/* title  */}
         <div className="xl:w-[665px] mx-auto text-center pb-[30px]">
@@ -58,7 +58,7 @@ function FaqSection() {
             Everything you need to know about the product and billing.
           </p>
         </div>
-        <div className="2xl:w-[1034px] mx-auto">
+        <div className="2xl:w-[1034px] mt-[20px] 2xl:mt-0 mx-auto">
           <Accordion type="single" collapsible className="w-full">
             {faqData.map((faq, index) => (
               <div key={faq.id} data-aos="fade-up" data-aos-delay={index * 100}>
